@@ -60,9 +60,11 @@ public class ExerciciosMatriz {
             for (int j = 0; j < colIndex; j++) {
                 if (notas[i][j] > auxMenor){
                     auxMenor = notas[i][j];
+
                 }
             }
         }
         System.out.println(" O menor número dentro do array é o número: " + auxMenor);
+
     }
 }
